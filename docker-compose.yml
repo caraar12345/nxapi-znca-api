@@ -6,7 +6,7 @@ services:
     image: samuelthomas2774/nxapi-znca-api
     command:
       - android-frida-server
-      - redroid
+      - 'redroid:5555'
       - --resolve-multiple-devices-docker
       - --frida-server-path
       - /system/bin/frida-server
